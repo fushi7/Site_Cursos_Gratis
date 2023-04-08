@@ -1,0 +1,214 @@
+body{
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 1707px;
+    height: 244px;
+    left: 0px;
+    margin-left: -8px;
+    margin-top: -8px;
+    background: #44E690;
+    border-radius: 1%;
+}
+.navbar h1{
+    position: absolute;
+    width: 305px;
+    height: 55px;
+    left: 59px;
+    top: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 75px;
+
+    color: #3F3F3F;
+   
+
+
+}
+.navbar h3{
+    position: absolute;
+    width: 305px;
+    height: 55px;
+    left: 269px;
+    top: 4px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 75px;
+
+    color: #E6C244;
+}
+
+.navbar img{
+    width: 400px;
+    height: 200px;
+    left: 20px;
+    cursor: pointer;
+}
+input{
+    position: absolute;
+    width: 504px;
+    height: 55px;
+    left: 624px;
+    top: 66px;
+    border: #3F3F3F;
+    border-radius: 34px;
+   
+}
+::placeholder{
+    font-size: large;
+}
+.btn-home{
+    position: absolute;
+    width: 164px;
+    height: 37.67px;
+    left: 624px;
+    top: 165.64px;
+    background-color: #FFFFFF;
+    box-shadow: #717171 0.3px 0.3px 0.3px 0.3px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn-home h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #3F3F3F;
+}
+
+
+.btn-populares{
+    position: absolute;
+    width: 164px;
+    height: 37.67px;
+    left: 821px;
+    top: 165.64px;
+    background-color: #FFFFFF;
+    box-shadow: #717171 0.3px 0.3px 0.3px 0.3px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-populares h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+
+}
+
+.btn-categorias{
+    position: absolute;
+    width: 164px;
+    height: 37.67px;
+    left: 1018px;
+    top: 165.64px;
+    background-color: #FFFFFF;
+    box-shadow: #717171 0.3px 0.3px 0.3px 0.3px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-categorias h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+    
+    color: #3F3F3F;
+}
+
+
+.btn-sobre{
+    position: absolute;
+    width: 164px;
+    height: 37.67px;
+    left: 1215px;
+    top: 165.64px;
+    background-color: #FFFFFF;
+    box-shadow: #717171 0.3px 0.3px 0.3px 0.3px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn-sobre h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #3F3F3F;
+}
+
+
+
+.input-image{
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    left: 1500px;
+    top: 42px;
+    background-image: none;
+    background-color: aliceblue;
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+
+.image-heart{
+    position: absolute;
+    width: 48px;
+    height: 52px;
+    left: 1424px;
+    top: 57px;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 1770px;
+    height: 160px;
+    left: 0px;
+    margin-left: -8px;
+    bottom: 0px;
+    margin-top: 395px;
+    background: #44E690;
+    border:#44E690;
+    border-radius: 1%;
+    
+
+
+}
+.footer h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 17px;
+   
+
+    color: #0b0a0a;
+}
+.footer img{
+   display: flex;
+   flex-direction: column-reverse;
+   left: 2000px;
+}
+
