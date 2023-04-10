@@ -6,7 +6,7 @@
 }
 .container {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
@@ -15,13 +15,13 @@
   height: 464px;
   margin-bottom: 0vh;
 }
-.container2_0{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 40px;
-    height: 55vh;
+.container2_0 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  height: 55vh;
 }
 #email {
   display: flex;
@@ -57,43 +57,44 @@ input::placeholder {
   padding-left: 0px;
 }
 a h5 {
-    color: #E6C244;
-
+  color: #e6c244;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
-.top_box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 30px;
-    padding: 30px;
+.top_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px;
+  padding: 30px;
 }
-.middle_box{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    padding-right: 150px;
-    
+.middle_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-right: 150px;
 }
-.reg{
-    padding: 10px;
+.reg {
+  padding: 10px;
 }
-.logar_com{
-    padding-top: 35px;
-    padding-left: 150px;
+.logar_com {
+  padding-top: 35px;
+  padding-left: 150px;
 }
-.logo{
-    width: 300px;
+.logo {
+  width: 300px;
 }
-.logo_area{
-    display: flex;
-    justify-content: center;
+.logo_area {
+  display: flex;
+  justify-content: center;
 }
-input:focus{
-    outline: none;
+input:focus {
+  outline: none;
+}
+.google {
+  padding-top: 20px;
 }
