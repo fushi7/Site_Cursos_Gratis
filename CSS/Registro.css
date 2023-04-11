@@ -123,3 +123,10 @@ input:focus {
 .google {
   padding-top: 20px;
 }
+#cadastrar_b:hover{
+  cursor: pointer;
+  background-color: #ceae39;
+}
+h5.reg:hover{
+  color: #ceae39;
+}

@@ -97,4 +97,12 @@ input:focus {
 }
 .google {
   padding-top: 20px;
+  
+}
+#entrar_b:hover{
+  background-color: #ceae39;
+  cursor: pointer;
+}
+h5.reg:hover{
+  color: #ceae39;
 }
