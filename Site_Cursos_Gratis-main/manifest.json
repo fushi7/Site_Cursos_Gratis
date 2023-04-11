@@ -1,0 +1,33 @@
+{
+    "short-name": "Site",
+    "name": "Site_cursos_grátis",
+    "icons":
+[
+        //Aqui será colocado os ícones de acordo com a resolução para poder se tornar PWA
+        
+           {
+
+
+
+
+
+
+
+
+
+
+
+
+
+           }
+],
+
+//Aqui é onde vai colocar o background da tela e também como vai ficar para rodar no PWA ou seja retrato 
+//Deixem padrão mas tem que mudar de acordo com a tela
+
+        "start_url": "/utm=pwa",
+        "background_color": "#fff",
+        "display": "standalone",
+        "orientation": "portrait",
+        "theme_color": "000000"
+}
