@@ -170,6 +170,27 @@ input {
 
   color: #3f3f3f;
 }
+.btn-login{
+  position: absolute;
+  width: 164px;
+  height: 37.67px;
+  left: 1300px;
+  top: 150px;
+  background-color: #ffffff;
+  box-shadow: #717171 0.3px 0.3px 0.3px 0.3px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn-login h2{
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #3f3f3f;
+}
 
 .input-image {
   position: absolute;
