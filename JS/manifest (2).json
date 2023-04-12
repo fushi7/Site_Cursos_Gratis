@@ -1,0 +1,52 @@
+{
+  "background_color": "#ffffff",
+  "description": "Descrição.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "estudeali",
+  "orientation": "any",
+  "scope": "https://estudeali.netlify.app",
+  "short_name": "estudeali",
+  "start_url": "index.html",
+  "theme_color": "#ffffff",
+  "categories": ["education"],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/w3HtTw5w/48.png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "https://i.postimg.cc/ppcyCxwS/76.png",
+      "sizes": "76x76"
+    },
+    {
+      "src": "https://i.postimg.cc/75ChQdDZ/120.png",
+      "sizes": "120x120"
+    },
+    {
+      "src": "https://i.postimg.cc/VSn6ztJy/144.png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "https://i.postimg.cc/DJhz0zGS/192.png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+
+    },
+    {
+      "src": "https://i.postimg.cc/YGxCWwNb/256.png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "https://i.postimg.cc/tnCCdm2y/512.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "https://i.postimg.cc/yWVdzkB5/1024.png",
+      "sizes": "1024x1024"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "pt"
+}
