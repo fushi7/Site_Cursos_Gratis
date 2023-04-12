@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS\Registro.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Document</title>
   </head>
 
@@ -15,7 +16,7 @@
     <main class="container2_0">
       <section class="container">
         <div class="top_box">
-          <div>
+          <form>
             <div id="user">
               <h5>Usuário:</h5>
               <input id="Usuario" type="Usuário" placeholder="Usuário" />
@@ -28,16 +29,31 @@
               <h5>Senha:</h5>
               <input id="senha" type="password" placeholder="Senha" />
             </div>
-            <div id="password">
-              <h5>Confirmar senha:</h5>
-              <input
-                id="confirmar_senha"
-                type="password"
-                placeholder="Confirmar senha"
-              />
-            </div>
-          </div>
-          <button href="" id="cadastrar_b">Cadastrar</button>
+          </form>
+
+          <script>
+            async function cadastrar() {
+              const usuario = document.getElementById("usuario").value;
+              const email = document.getElementById("email").value;
+              const senha = document.getElementById("senha").value;
+
+              try {
+                const response = await axios.post(
+                  "http://localhost:3523/cadastrar",
+                  {
+                    usuario: usuario,
+                    email: email,
+                    senha: senha,                  }
+                );
+                console.log(response.data);
+                // Faça o que quiser com a resposta do servidor aqui
+              } catch (error) {
+                console.error(error);
+              }
+            }
+          </script>
+
+          <a href="Home.html"><button href="" id="cadastrar_b">Cadastrar</button></a>
         </div>
       </section>
       <section class="reg">
