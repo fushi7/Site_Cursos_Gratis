@@ -5,7 +5,7 @@
   "display": "standalone",
   "name": "estudeali",
   "orientation": "any",
-  "scope": "https://estudeali.netlify.app",
+  "scope": "https://estudeali.netlify.app/",
   "short_name": "estudeali",
   "start_url": "index.html",
   "theme_color": "#ffffff",
