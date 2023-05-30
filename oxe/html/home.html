@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homem</title>
+  <link rel="stylesheet" href="css\style.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+
+    .logo-photo-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      text-align: center;
+      flex: 1;
+      /* Adicionado para centralizar a logo */
+    }
+
+    .logo img {
+      max-width: 100px;
+      height: auto;
+    }
+
+    .dropdown {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      margin-left: auto;
+      /* Adicionado para alinhar à direita */
+    }
+
+    .dropdown select {
+      padding: 5px;
+    }
+
+    .search-bar {
+      text-align: center;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+
+    .search-bar input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .search-bar button {
+      padding: 5px;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+    }
+
+    /* Estilos específicos para dispositivos móveis */
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+      .logo img {
+        max-width: 80px;
+      }
+
+      .dropdown select {
+        font-size: 12px;
+      }
+    }
+
+    .categories-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      /* Ajuste para alinhar os itens ao topo */
+      padding: 10px;
+    }
+
+    .categories-content {
+      display: flex;
+      align-items: center;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      margin-left: auto;
+      /* Ajuste para alinhar à direita */
+    }
+
+    .image-buttons {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .image-buttons img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+
+    .button {
+      background-color: transparent;
+      border: none;
+      padding: 0;
+      font-size: 16px;
+      color: rgb(41, 184, 41);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo-photo-container">
+      <div class="foto">
+        <img src="imagens\unnamed.jpg" alt="Foto">
+      </div>
+      <div class="logo">
+        <img src="imagens\logofigma.png" alt="Logo">
+      </div>
+      <div class="dropdown">
+        <button onclick="window.location.href='imagens\1077035.png'">
+          <img src="imagens\1077035.png" alt="Favoritos">
+        </button>
+        <select>
+          <option value="opcao1">Home</option>
+          <option value="opcao2">Opção 2</option>
+          <option value="opcao3">Opção 3</option>
+        </select>
+      </div>
+    </div>
+    <div class="search-bar">
+      <input type="text" class="search-input" placeholder="Pesquisar por cursos">
+    </div>
+  </header>
+  <div class="categories-container">
+    <div class="categories-content">
+      <div class="title">Categorias</div>
+    </div>
+    <div class="subtitle"><button class="button">Outras</button></div>
+  </div>
+  <div class="image-buttons">
+    <img src="imagens\frontend_icon.png" alt="Front-end">
+    <img src="imagens\backend_icon.png" alt="Back-end">
+    <img src="imagens\icon_bd.png" alt="BD">
+    <img src="imagens\design_icon.png" alt="Design">
+  </div>
+  <div class="categories-container">
+    <div class="categories-content">
+      <div class="title">Cursos Populares</div>
+    </div>
+    <div class="subtitle"><button class="button">Ver mais</button></div>
+  </div>
+  <div class="image-buttons">
+    <img src="imagens\imagem_2023-05-29_113212928.png" alt="Curso em Vídeo - JavaScript">
+  </div>
+  <div class="categories-container">
+    <div class="categories-content">
+      <div class="title">Design</div>
+    </div>
+    <div class="subtitle"><button class="button">Ver mais</button></div>
+  </div>
+  <div class="image-buttons">
+    <img src="imagens\imagem_2023-05-29_113319526.png" alt="UI-UX">
+    <img src="imagens\imagem_2023-05-29_113400744.png" alt="Photoshop">
+
+  </div>
+  <div class="categories-container">
+    <div class="categories-content">
+      <div class="title">Python</div>
+    </div>
+    <div class="subtitle"><button class="button">Ver mais</button></div>
+  </div>
+  <div class="image-buttons">
+    <img src="imagens\imagem_2023-05-29_113742911.png" alt="Python">
+    <img src="imagens\imagem_2023-05-29_113814696.png" alt="Python">
+  </div>
+</body>
+
+</html>
